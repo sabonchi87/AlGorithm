@@ -1,0 +1,51 @@
+Hasanain Alsabonchi
+
+
+1) Old World Puzzle:
+A peasant finds himself on a riverbank with a wolf, a goat, and a head of cabbage.
+He needs to transport all three to the other side of the river in his boat. However, the boat has room for only the peasant himself and one other item (either the wolf, the goat, or the cabbage). In his absence, the wolf would eat the goat, and the goat would eat the cabbage. Solve this problem for the peasant or prove it has no solution. (Note: The peasant is a vegetarian but does not like cabbage and hence can eat neither the goat nor the cabbage to help him solve the problem.)
+
+
+
+(Wolf,cabbage)  peasant  takes Goat    ——————>    to the other side .
+
+                         peasant returns alone
+
+(cabbage)      peasant  takes wolf ————————> to the other side.
+       
+                            peasant returns  with Goat
+
+                           on the other side       (Wolf,cabbage)  
+
+  
+    (Goat )  peasant  takes cabbage ————————> to the other side.       
+            
+                                peasant returns alone
+
+
+                peasant  takes Goat    ——————>    to the other side .
+
+                                 (Done)
+
+
+2) New World Puzzle:
+There are four people who want to cross a bridge; they all begin on the same side. You have 17 minutes to get them all across to the other side. 
+It is night, and they have one flashlight. A maximum of two people can cross the bridge at one time. Any party that crosses, either one or two people, must have the flashlight with them. The flashlight must be walked back and forth; it cannot be thrown, for example. Person 1 takes 1 minute to cross the bridge, person 2 takes 2 minutes, person 3 takes 5 minutes, and person 4 takes 10 minutes. A pair must walk together at the rate of the slower person's pace. For example, if person 1 and person 4 walk across first, 10 minutes have elapsed when they get to the other side of the bridge. If person 4 returns the flashlight, a total of 20 minutes have passed and you have failed the mission. (Note: according to a rumor on the Internet, interviewers at a well known software company have given this problem to interviewers.)
+  
+                       T2
+P1 & P2 —————————> P2
+
+           P1    returns flashlight
+(T3 Min)
+
+                            T10
+P4,P3————————————>P3,P4,P2
+
+                 P2    returns flashlight
+(T 15 Min)
+
+                   (T 2min)
+P1,P2———————————————>         T17 min
+
+
+
